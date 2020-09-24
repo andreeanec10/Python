@@ -1,5 +1,6 @@
     What does the scripts:
 
-1. works_in_parameters.py -return "Everything works OK!" if the cpu usage is less then 75%
-, free space is more than 20% and the device is connected 
-2. network.py -module that contains boolean functions 
+1. works_in_parameters.py -return "Everything works OK!" if the cpu usage is less then 75%, 
+free space is more than 20% and the device is connected 
+2. network.py -module that contains boolean functions that verify if the localhost is correctly set
+and if there is an internet connection
