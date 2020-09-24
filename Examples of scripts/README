@@ -1,0 +1,5 @@
+    What does the scripts:
+
+1. works_in_parameters.py -return "Everything works OK!" if the cpu usage
+and free space are more than 20%
+2. network.py -module that contains boolean functions
