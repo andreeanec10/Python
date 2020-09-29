@@ -4,3 +4,4 @@
 free space is more than 20% and the device is connected 
 2. network.py -module that contains boolean functions that verify if the localhost is correctly set
 and if there is an internet connection
+3. delete_entire_folder.py -module that delets the content and the folder given
