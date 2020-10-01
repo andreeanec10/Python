@@ -32,7 +32,12 @@ def process_data(employee_list):
     department_data = make_dict_of_frequency_II(department_list)
     return department_data
 
+def write_report(dictionary, report_file_path):
+    with open(report_file_path, 'w') as file:
+        for elem in sorted(dictionary):
+            file.write(str(elem) + " :" + str(dictionary[elem]) + '\n')
+
 
 employee_list = read_employees("./by_department.csv")
 dictionary = process_data(employee_list)
-print(dictionary)
+write_report(dictionary, "./test_report.txt")
